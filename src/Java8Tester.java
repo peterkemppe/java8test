@@ -42,8 +42,8 @@ public class Java8Tester {
         ShoutOutLoad shout1 = message -> System.out.println(message.toUpperCase());
         ShoutOutLoad shout2 = message -> System.out.println(message.toLowerCase());
 
-        shout1.shoutMessage("liTE skrikigt");
-        shout2.shoutMessage("VISKA liTE");
+        shout1.shoutMessage("scream");
+        shout2.shoutMessage("WHISPER");
     }
 
     interface MathOperation {
