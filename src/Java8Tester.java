@@ -44,6 +44,18 @@ public class Java8Tester {
 
         shout1.shoutMessage("scream");
         shout2.shoutMessage("WHISPER");
+
+        List<String> names = new ArrayList<String>();
+
+        names.add("Mahesh");
+        names.add("Suresh");
+        names.add("Ramesh");
+        names.add("Naresh");
+        names.add("Kalpesh");
+
+        names.forEach(System.out::println);
+
+
     }
 
     interface MathOperation {
