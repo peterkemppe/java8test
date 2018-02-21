@@ -44,7 +44,6 @@ public class Java8Tester {
 
         shout1.shoutMessage("liTE skrikigt");
         shout2.shoutMessage("VISKA liTE");
-        System.out.println("MEN VAD händer?");
     }
 
     interface MathOperation {
